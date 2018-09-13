@@ -26,16 +26,16 @@ The evaluation directory contains the SimLex-999 dataset (Hill et al., 2014), th
 Running the experiment loads the word vectors specified in the config file and fits them to the provided linguistic constraints. The procedure prints the updated word vectors to the results directory as ```results/final_vectors.txt``` (one word vector per line). 
 
 
-### References
+### Referencesn
 
 The paper which introduces the LEAR procedure:
 ```
- @Article{Vulic:2017,
+ @inproceedings{Vulic:2018naacl,
   author    = {Ivan Vuli\'{c} and Nikola Mrk\v{s}i\'c},
   title     = {Specialising Word Vectors for Lexical Entailment},
-  journal   = {CoRR},
-  year      = 2017,
-  volume = {abs/1710.06371}
+  booktitle   = {Proceedings of NAACL-HLT},
+  year      = 2018,
+  pages = 1134--1145,
  }
 ```
 
